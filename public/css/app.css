@@ -1,0 +1,32 @@
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6d48e5;
+    color: white;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    gap: px;
+}
+.first div p {
+    font-size: 15px;
+}
+
+.mylinks{
+    color: white;
+}
+.numbers{
+    display: flex;
+    gap: 40px;
+    font-size: 35px;
+}
+.second2{
+    display: flex;
+    justify-content: center;
+    gap: 15vw;
+
+}
+.second3{
+    display:flex ;
+}
+
