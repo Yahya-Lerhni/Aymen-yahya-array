@@ -5,6 +5,17 @@
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    padding: 20px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
 .logo h1{
     color: #6d48e5;
 }
@@ -35,7 +46,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
 }
 .header2{
     display: flex;
@@ -70,11 +81,14 @@ header{
     justify-content: center;
     align-items: center;
     gap: 30px;
+    background-color: #f6f6fd;
+    padding: 40px;
 }
 .sec1-title{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 .sec1-title h1{
     font-size: x-large;
@@ -160,4 +174,7 @@ color: grey;
 }
 .dynamic span{
     border-bottom: 2px solid rgb(181, 190, 187) ;
+}
+.logo .menu , input , .links .fa-xmark{
+    display: none;
 }
