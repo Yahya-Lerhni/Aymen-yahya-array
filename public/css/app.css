@@ -107,3 +107,101 @@ header{
     align-items: center;
     gap: 20px;
 }
+
+.sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.sec1-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec1-title h1{
+    font-size: x-large;
+}
+.sec1-title p{
+    color: grey;
+    width: 50vw;
+    text-align: center;
+}
+.sec1-icons{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2,auto);
+    gap: 20px;
+}
+.icn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.icn p{
+    color: grey;
+    text-align: center;
+    width: 23vw;
+}
+.icn h4{
+    color: #525254;
+}
+.icn i{
+background-color: #ece7fe;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+text-align: center;
+padding: 10px;
+color: grey;
+}
+.sec2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.sec2-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.sec2-title h1{
+    font-size: 30px;
+}
+.sec2-title p{
+    width:47vw;
+    color: grey;
+    text-align: center;
+}
+.sec2-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 70px;
+}
+.dynamic{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+.dynamic h1{
+    font-size: 22px;
+    font-weight: 500;
+}
+.dynamic p{
+    width:20vw;
+    color: grey;
+}
+.dynamic a{
+    color: rgb(181, 190, 187);
+}
+.dynamic span{
+    border-bottom: 2px solid rgb(181, 190, 187) ;
+}
