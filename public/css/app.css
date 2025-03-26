@@ -2,6 +2,9 @@
 .hero {
     padding: 60px 20px;
     background-color: #6d48e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Heading */
@@ -27,10 +30,12 @@
     gap: 150px;
     margin-bottom: 20px;
     color: white;
+    align-items: center;
 }
 
 .stats div {
     text-align: center;
+    
 }
 
 .stats strong {
@@ -120,7 +125,7 @@ body{
 main{
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 25px;
 }
 .logo h1{
     color: #6d48e5;
@@ -314,6 +319,7 @@ color: grey;
     border: 1px solid #e0e0e0;
     border-radius: 4px;
     box-sizing: border-box;
+    display: block;
 }
 
 .signup-button {
@@ -330,6 +336,9 @@ color: grey;
     background-color: #6d28d9;
 }
 
+.menu , input , .links .fa-xmark{
+    display: none;
+}
 .trial-text {
     color: #718096;
     font-size: 14px;
@@ -395,3 +404,88 @@ color: grey;
     }
 
 }
+
+@media (max-width:426px) {
+    body{
+        width: 100vw;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo .menu {
+        display: block;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 75vw;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20vw;
+    }
+    nav{
+        display: flex;
+        position: relative;
+    }
+    .links button{
+        width: 20vw;
+    }
+    .menu i , a{
+        color: #6d48e5;
+        font-size: 20px;
+    }
+    .menu a{
+        font-weight: bold;
+    }
+    .header2 button{
+        width: 40vw;
+    }
+    .sec1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec1-icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header , .sec1-icons p , .sec2-title p , .dynamic p , .sec1-title p{
+        width: 100%;
+    }
+     .mobile{
+        width: 80vw;
+        height: 130vh;
+        padding: 50px 50px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 90px;
+        background-color: #6d48e5;
+        position: absolute;
+        top: -20px;
+        left: -396px;
+        transition: 0.5s ease;
+    }
+    .mobile a{
+        color: white;
+    }
+    #respo:checked +.mobile {
+        left:276px;
+    }
+    .links .fa-xmark{
+        display: block;
+        position: absolute;
+        top: 10px;
+        right:20px ;
+    }
+    .fa-xmark{
+        color: white;
+        font-size: xx-large;
+    }
+} 
